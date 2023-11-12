@@ -12,7 +12,7 @@ import BossCard from "../components/BossCard";
 const TheTeam = (): JSX.Element => {
     return (
         <div className=" w-full">
-            <div className="w-full text-center mb-28">
+            <div className="w-full text-center mb-12">
                 <div className="  [font-family:'Inter-ExtraBold',Helvetica] font-extrabold text-[#015478] text-[68.8px] text-center tracking-[0] leading-[normal] whitespace-nowrap">
                     The Team
                 </div>
@@ -104,7 +104,7 @@ const TheTeam = (): JSX.Element => {
                         gradientSrc="/TechCoLeadImageGradient.png"
                         color="#fb923c"
                         name="Ayush Bhatt"
-                        role="scribing Lead"
+                        role="Scribing Lead"
                     />
                 </div>
                 {/* <div className="w-fit">

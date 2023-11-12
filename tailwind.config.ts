@@ -20,8 +20,8 @@ const config: Config = {
     "shadow-[0px_4px_200px_10px_#c084fc]",
     "shadow-[0px_4px_200px_10px_#2dd4bf]",
     "shadow-[0px_4px_200px_10px_#14b8a6]",
-    "shadow-[0px_4px_200px_10px_#ff4c65]",
-    "shadow-[0px_4px_200px_10px_#2563eb]",
+    "shadow-[0px_5px_250px_12.5px_#ff4c65]",
+    "shadow-[0px_5px_250px_12.5px_#2563eb]",
     "bg-[#22c55e]",
     "bg-[#10b981]",
     "bg-[#fbbf24]",
@@ -52,6 +52,7 @@ const config: Config = {
     "border-[#14b8a6]",
     "border-[#ff4c65]",
     "border-[#2563eb]",
+    
   ],
   theme: {
     extend: {
