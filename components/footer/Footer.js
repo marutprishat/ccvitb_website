@@ -31,7 +31,7 @@ class Footer extends React.Component {
                 <div className="h-300px flex flex-row justify-center items-center bg-black mb-10">
                     <div className="w-45 m-5 pb-10 flex flex-col">
                         <Image className="mx-5" src={Logo} width={150} height={150} />
-                        <h1 className="mx-5 mt-6 w-22 text-white font-Poppins text-3xl font-bold">Get your career's inital</h1>
+                        <h1 className="mx-5 mt-6 w-22 text-white font-Poppins text-3xl font-bold">Get your career&apos;s inital</h1>
                         <h1 className="mx-5 mb-7 w-22 text-white font-Poppins text-3xl font-bold">boost with our community.</h1>
                         <form className="mx-5">
                             {

@@ -21,7 +21,6 @@ const TheTeam = (): JSX.Element => {
                 </p>
             </div>
             <div className="w-full flex flex-row justify-evenly flex-wrap gap-y-16 mb-12">
-                
                 <BossCard
                     imageName="FacultyCoordinatorImage.png"
                     color="#ff4c65"
@@ -44,55 +43,25 @@ const TheTeam = (): JSX.Element => {
                         role="PR Lead"
                     />
                 </div>
-                {/* <div className="w-fit">
-                    <UserCard
-                        imageName="/VicePresidentImage.png"
-                        // gradientSrc="/VicePresidentImageGradient.png"
-                        color="#10b981"
-                        name="Aruj Singhvi"
-                        role="PR Co-Lead"
-                    />
-                </div> */}
                 <div className="w-fit">
                     <UserCard
                         imageName="HRLeadCropped.png"
-                        // gradientSrc="/TechLeadImageGradient.png"
                         color="#fbbf24"
                         name="Vanshika Tiwari"
                         role="HR Lead"
                     />
                 </div>
-                {/* <div className="w-fit">
-                    <UserCard
-                        imageName="/TechCoLeadImage.png"
-                        // gradientSrc="/TechCoLeadImageGradient.png"
-                        color="#facc15"
-                        name="Kittu Priya"
-                        role="HR Co-Lead"
-                    />
-                </div> */}
                 <div className="w-fit">
                     <UserCard
                         imageName="TechLeadCropped.png"
-                        // gradientSrc="/TechCoLeadImageGradient.png"
                         color="#06b6d4"
                         name="Rishav Kumar"
                         role="Tech Lead"
                     />
                 </div>
-                {/* <div className="w-fit">
-                    <UserCard
-                        imageName="/TechCoLeadImage.png"
-                        // gradientSrc="/TechCoLeadImageGradient.png"
-                        color="#0ea5e9"
-                        name="Ketan Sharma"
-                        role="Tech Co-Lead"
-                    />
-                </div> */}
                 <div className="w-fit">
                     <UserCard
                         imageName="TechCoLeadImage.png"
-                        // gradientSrc="/TechCoLeadImageGradient.png"
                         color="#ec4899"
                         name="Aksh Raizada"
                         role="Research Lead"
@@ -101,57 +70,27 @@ const TheTeam = (): JSX.Element => {
                 <div className="w-fit">
                     <UserCard
                         imageName="TechCoLeadImage.png"
-                        // gradientSrc="/TechCoLeadImageGradient.png"
                         color="#fb923c"
                         name="Ayush Bhatt"
                         role="Scribing Lead"
                     />
                 </div>
-                {/* <div className="w-fit">
-                    <UserCard
-                        imageName="/TechCoLeadImage.png"
-                        // gradientSrc="/TechCoLeadImageGradient.png"
-                        color="#f97316"
-                        name="Ishika Wadagbalkar"
-                        role="Scribbing Co-Lead"
-                    />
-                </div> */}
                 <div className="w-fit">
                     <UserCard
                         imageName="TechCoLeadImage.png"
-                        // gradientSrc="/TechCoLeadImageGradient.png"
                         color="#a78bfa"
                         name="Khyati Tiwari"
                         role="Creative Lead"
                     />
                 </div>
-                {/* <div className="w-fit">
-                    <UserCard
-                        imageName="/TechCoLeadImage.png"
-                        // gradientSrc="/TechCoLeadImageGradient.png"
-                        color="#c084fc"
-                        name="Bhavyansh Jain"
-                        role="Creative Co-Lead"
-                    />
-                </div> */}
                 <div className="w-fit">
                     <UserCard
-                        imageName="TechCoLeadImage.png"
-                        // gradientSrc="/TechCoLeadImageGradient.png"
+                        imageName="EventLead2ndCropped.png"
                         color="#2dd4bf"
                         name="Sneha Prasad"
                         role="Event Lead"
                     />
                 </div>
-                {/* <div className="w-fit">
-                    <UserCard
-                        imageName="/TechCoLeadImage.png"
-                        // gradientSrc="/TechCoLeadImageGradient.png"
-                        color="#14b8a6"
-                        name="Vinay Vyas"
-                        role="Event Co-Lead"
-                    />
-                </div> */}
             </div>
         </div>
     );

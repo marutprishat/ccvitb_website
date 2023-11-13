@@ -1,5 +1,5 @@
 import React from "react";
-import {  Tweet } from 'react-tweet';
+import { Tweet } from 'react-tweet';
 
 class Twitter extends React.Component {
     constructor(props) {
