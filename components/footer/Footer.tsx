@@ -11,11 +11,11 @@ import Twitter from "./tweet";
 interface Icon {
     show : boolean
 }
-
 const initialState = {show : true};
 const finalState = {show : true};
 const Footer = () => {
     const [place_icon, setPlace_icon] = useState<Icon>(initialState);
+    
     const handleChange = (e: any) => {
         if (e.target.value !== "") {
             setPlace_icon({ show: false});
@@ -32,7 +32,7 @@ const Footer = () => {
                     <h1 className="mx-5 mb-7 w-22 text-white font-Poppins text-3xl font-bold">boost with our community.</h1>
                     <form className="mx-5">
                         {
-                            place_icon === finalState? <svg className="mx-4 my-3 absolute bottom-100 z-100 w-4 h-4 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 18">
+                            place_icon.show === true ? <svg className="mx-4 mt-4 absolute bottom-100 z-100 w-4 h-4 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 18">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm-2 3h4a4 4 0 0 1 4 4v2H1v-2a4 4 0 0 1 4-4Z" />
                             </svg>
                                 : null
