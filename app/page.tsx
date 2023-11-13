@@ -1,5 +1,5 @@
 import TheTeam from "./TheTeam";
-import Footer from "../components/footer/Footer.js";
+import Footer from "../components/footer/Footer";
 
 export default function Home() {
   return (
