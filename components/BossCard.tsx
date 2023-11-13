@@ -1,52 +1,61 @@
 import Image from "next/image";
 
 interface BossCardProps {
-  imageSrc: string;
+  imageName: string;
   color: string;
   name: string;
   role: string;
 }
 
-const BossCard: React.FC<BossCardProps> = ({ imageSrc, color, name, role }) => {
+const BossCard: React.FC<BossCardProps> = ({ imageName, color, name, role }) => {
+  const scaleFactor = 1.15;
   return (
-    <div className="relative w-[252.5px] h-[372.5px] mb-20">
+    <div className="w-fit">
 
-      {/* div below is responsible for border */}
-      <div className={`absolute w-[252.5px] h-[350px] top-[22.5px] left-0 rounded-[27.925px] border-[3.1px] border-solid border-[${color}]`} />
+      {/*border-[${2.5*scaleFactor}px] compiles to border-[2.875px]*/}
+      <div 
+      className={`aspect-[2/3] border-[${2.5*scaleFactor}px] border-solid border-[${color}] rounded-[22.34px] p-[4px]`}
+      style={{height: `${312*scaleFactor}px`}}
+      > {/*layer1*/}
 
-      {/* just below is the div responsible for background blur */}
-      <div className={`absolute w-[237.5px] h-[336.25px] top-[30px] left-[7.5px] bg-[${color}] rounded-[19.1375px] shadow-[0px_5px_250px_12.5px_${color}]`} />
-      <Image
-        className="object-cover absolute w-[237.5px] h-[366.25px] top-0 left-[7.5px] rounded-b-[21.25px]"
-        alt="Image here"
-        src={`/images/${imageSrc}`}
-        width={237.5}
-        height={366.25}
-      />
-      
-      {/* div just below provides lower image gradient */}
-      <div className="absolute w-[237.5px] h-[336.25px] top-[30px] left-[7.5px] rounded-[19.1375px] bg-gradient-to-b from-transparent from-50% to-gray-950" />
+        {/*h-[${300*scaleFactor}px] compiles to h-[345px]*/}
+        <div className={`relative h-[${300*scaleFactor}px] aspect-[2/3] bg-[${color}] rounded-[15.31px] shadow-[0px_5px_250px_12.5px_${color}]`}> {/*layer 2*/}
 
-      <div className="absolute w-[83.75px] h-[25px] top-[40px] left-[13.75px] rounded-[21.2125px] shadow-[0px_2.075px_2.075px_#00000040] backdrop-blur-md backdrop-brightness-[100%] bg-gradient-to-r from-[rgba(37.1875,34.8625,34.8625,0.6)] via-[rgba(37.1875,34.8625,34.8625,0.47)] to-[rgba(37.1875,34.8625,34.8625,0.58)]">
-        <div className="relative w-[15px] h-[16.25px] top-[5px] left-[5px]">
-          <Image
-            className="absolute w-[15px] h-[15px] top-0 left-0"
-            alt="Group"
-            src="/images/Tick.png"
-            width={15}
-            height={15}
-          />
-          <div className="absolute w-max h-[16.25px] top-0 left-[20px] font-semibold text-white text-[9.875px] tracking-[0] leading-[15.5px]">
-            {role}
+          {/*w-[${200*scaleFactor}px] compiles to w-[230px]*/}
+          {/*h-[${320*scaleFactor}px] compiles to h-[368px]*/}
+          <div 
+          className={`absolute bottom-0 rounded-b-[15.31px]`}
+          style={{width: `${200*scaleFactor}px`, height: `${320*scaleFactor}px`}}
+          >
+            <Image
+              className="rounded-b-[15.31px] object-cover object-center"
+              src={`/images/${imageName}`}
+              alt="Profile Image"
+              fill={true}
+            />
+          </div>
+          <div className="absolute top-0 left-0 w-full h-full rounded-[15.31px] bg-gradient-to-b from-transparent to-black" />
+
+          <div className="absolute bottom-2 left-3 text-white">
+            <div className="text-base tracking-wide font-bold whitespace-nowrap">
+              {name}
+            </div>
+            <div className="flex items-center w-fit p-1 rounded-full shadow-[0px_1.66px_1.66px_#00000040] backdrop-blur-md backdrop-brightness-[100%] bg-gradient-to-r from-[rgba(29.75,27.89,27.89,0.6)] via-[rgba(29.75,27.89,27.89,0.47)] to-[rgba(29.75,27.89,27.89,0.58)]">
+              <Image
+                className="w-5 inline-block pr-1"
+                alt="TickMark"
+                src="/images/Tick.png"
+                width={18}      /*width & height are required but gets over-written by property in className*/
+                height={18}
+              />
+              <div className="inline-block text-white text-[9px] tracking-wide leading-loose font-semibold">
+                {role}
+              </div>
+            </div>
           </div>
         </div>
       </div>
-
-      <div className="h-[17.5px] bottom-[28.75px] left-[26.25px] text-[16.75px] tracking-[-0.275px] leading-[16.75px] absolute font-bold text-white whitespace-nowrap">
-        {name}
-      </div>
     </div>
-  );
+  )
 };
-
 export default BossCard;

@@ -13,22 +13,23 @@ const TheTeam = (): JSX.Element => {
     return (
         <div className=" w-full">
             <div className="w-full text-center mb-12">
-                <div className="  [font-family:'Inter-ExtraBold',Helvetica] font-extrabold text-[#015478] text-[68.8px] text-center tracking-[0] leading-[normal] whitespace-nowrap">
+                <div className="[font-family:'Inter-ExtraBold',Helvetica] font-extrabold text-[#015478] text-[68.8px] text-center tracking-[0] leading-[normal] whitespace-nowrap">
                     The Team
                 </div>
-                <p className="  h-[36px] top-[125px] left-[364px] [font-family:'Inter-Regular',Helvetica] font-normal text-[#00000087] text-[25px] text-center tracking-[0] leading-[normal]">
+                <p className="[font-family:'Inter-Regular',Helvetica] font-normal text-[#00000087] text-[25px] text-center tracking-[0] leading-[normal]">
                     Here is our great team that makes everything related to this community possible.
                 </p>
             </div>
-            <div className="w-full flex flex-row justify-evenly flex-wrap gap-10">
+            <div className="w-full flex flex-row justify-evenly flex-wrap gap-y-16 mb-12">
+                
                 <BossCard
-                    imageSrc="/FacultyCoordinatorImage.png"
+                    imageName="FacultyCoordinatorImage.png"
                     color="#ff4c65"
                     name="Nancy Kumari"
                     role="Faculty Coordinator"
                 />
                 <BossCard
-                    imageSrc="PresidentImageCropped.png"
+                    imageName="PresidentImageCropped.png"
                     color="#2563eb"
                     name="Sudhanshu Ranjan"
                     role="President"

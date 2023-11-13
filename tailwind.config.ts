@@ -52,7 +52,6 @@ const config: Config = {
     "border-[#14b8a6]",
     "border-[#ff4c65]",
     "border-[#2563eb]",
-    
   ],
   theme: {
     extend: {
