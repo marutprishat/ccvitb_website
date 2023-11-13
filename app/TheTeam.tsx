@@ -1,13 +1,13 @@
-import PersonCard from "../components/PersonCard";
+import UserCard from "../components/UserCard";
 import BossCard from "../components/BossCard";
 
-{/* <PersonCard
-        imageSrc="myPicCropped.png"   <----- just enter the name of pic (must be in public/images folder)
+{/* <UserCard
+        imageName="myPicCropped.png"   <----- just enter the name of pic (must be in public/images folder)
         color="#06b6d4"     <----- border and background color (yes they're gonna be same)
         name="Rishav Kumar"     <----- name of the person
         role="Tech Lead"        <----- his position in the community
 /> */}
-// BossCard & PersonCard are almost same except they just BossCard is bigger
+// BossCard & UserCard are almost same except they just BossCard is bigger
 
 const TheTeam = (): JSX.Element => {
     return (
@@ -36,117 +36,116 @@ const TheTeam = (): JSX.Element => {
             </div>
             <div className='mb-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-y-16 place-items-center'>
                 <div className="w-fit">
-                    <PersonCard
-                        imageSrc="/PresidentImage.png"
-                        gradientSrc="/PresidentImageGradient.png"
+                    <UserCard
+                        imageName="PresidentImage.png"
                         color="#22c55e"
                         name="Ayushi Agarwal"
                         role="PR Lead"
                     />
                 </div>
                 {/* <div className="w-fit">
-                    <PersonCard
-                        imageSrc="/VicePresidentImage.png"
-                        gradientSrc="/VicePresidentImageGradient.png"
+                    <UserCard
+                        imageName="/VicePresidentImage.png"
+                        // gradientSrc="/VicePresidentImageGradient.png"
                         color="#10b981"
                         name="Aruj Singhvi"
                         role="PR Co-Lead"
                     />
                 </div> */}
                 <div className="w-fit">
-                    <PersonCard
-                        imageSrc="HRLeadCropped.png"
-                        gradientSrc="/TechLeadImageGradient.png"
+                    <UserCard
+                        imageName="HRLeadCropped.png"
+                        // gradientSrc="/TechLeadImageGradient.png"
                         color="#fbbf24"
                         name="Vanshika Tiwari"
                         role="HR Lead"
                     />
                 </div>
                 {/* <div className="w-fit">
-                    <PersonCard
-                        imageSrc="/TechCoLeadImage.png"
-                        gradientSrc="/TechCoLeadImageGradient.png"
+                    <UserCard
+                        imageName="/TechCoLeadImage.png"
+                        // gradientSrc="/TechCoLeadImageGradient.png"
                         color="#facc15"
                         name="Kittu Priya"
                         role="HR Co-Lead"
                     />
                 </div> */}
                 <div className="w-fit">
-                    <PersonCard
-                        imageSrc="TechLeadCropped.png"
-                        gradientSrc="/TechCoLeadImageGradient.png"
+                    <UserCard
+                        imageName="TechLeadCropped.png"
+                        // gradientSrc="/TechCoLeadImageGradient.png"
                         color="#06b6d4"
                         name="Rishav Kumar"
                         role="Tech Lead"
                     />
                 </div>
                 {/* <div className="w-fit">
-                    <PersonCard
-                        imageSrc="/TechCoLeadImage.png"
-                        gradientSrc="/TechCoLeadImageGradient.png"
+                    <UserCard
+                        imageName="/TechCoLeadImage.png"
+                        // gradientSrc="/TechCoLeadImageGradient.png"
                         color="#0ea5e9"
                         name="Ketan Sharma"
                         role="Tech Co-Lead"
                     />
                 </div> */}
                 <div className="w-fit">
-                    <PersonCard
-                        imageSrc="/TechCoLeadImage.png"
-                        gradientSrc="/TechCoLeadImageGradient.png"
+                    <UserCard
+                        imageName="TechCoLeadImage.png"
+                        // gradientSrc="/TechCoLeadImageGradient.png"
                         color="#ec4899"
                         name="Aksh Raizada"
                         role="Research Lead"
                     />
                 </div>
                 <div className="w-fit">
-                    <PersonCard
-                        imageSrc="/TechCoLeadImage.png"
-                        gradientSrc="/TechCoLeadImageGradient.png"
+                    <UserCard
+                        imageName="TechCoLeadImage.png"
+                        // gradientSrc="/TechCoLeadImageGradient.png"
                         color="#fb923c"
                         name="Ayush Bhatt"
                         role="Scribing Lead"
                     />
                 </div>
                 {/* <div className="w-fit">
-                    <PersonCard
-                        imageSrc="/TechCoLeadImage.png"
-                        gradientSrc="/TechCoLeadImageGradient.png"
+                    <UserCard
+                        imageName="/TechCoLeadImage.png"
+                        // gradientSrc="/TechCoLeadImageGradient.png"
                         color="#f97316"
                         name="Ishika Wadagbalkar"
                         role="Scribbing Co-Lead"
                     />
                 </div> */}
                 <div className="w-fit">
-                    <PersonCard
-                        imageSrc="/TechCoLeadImage.png"
-                        gradientSrc="/TechCoLeadImageGradient.png"
+                    <UserCard
+                        imageName="TechCoLeadImage.png"
+                        // gradientSrc="/TechCoLeadImageGradient.png"
                         color="#a78bfa"
                         name="Khyati Tiwari"
                         role="Creative Lead"
                     />
                 </div>
                 {/* <div className="w-fit">
-                    <PersonCard
-                        imageSrc="/TechCoLeadImage.png"
-                        gradientSrc="/TechCoLeadImageGradient.png"
+                    <UserCard
+                        imageName="/TechCoLeadImage.png"
+                        // gradientSrc="/TechCoLeadImageGradient.png"
                         color="#c084fc"
                         name="Bhavyansh Jain"
                         role="Creative Co-Lead"
                     />
                 </div> */}
                 <div className="w-fit">
-                    <PersonCard
-                        imageSrc="/TechCoLeadImage.png"
-                        gradientSrc="/TechCoLeadImageGradient.png"
+                    <UserCard
+                        imageName="TechCoLeadImage.png"
+                        // gradientSrc="/TechCoLeadImageGradient.png"
                         color="#2dd4bf"
                         name="Sneha Prasad"
                         role="Event Lead"
                     />
                 </div>
                 {/* <div className="w-fit">
-                    <PersonCard
-                        imageSrc="/TechCoLeadImage.png"
-                        gradientSrc="/TechCoLeadImageGradient.png"
+                    <UserCard
+                        imageName="/TechCoLeadImage.png"
+                        // gradientSrc="/TechCoLeadImageGradient.png"
                         color="#14b8a6"
                         name="Vinay Vyas"
                         role="Event Co-Lead"
