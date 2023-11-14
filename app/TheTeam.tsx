@@ -61,7 +61,7 @@ const TheTeam = (): JSX.Element => {
                 </div>
                 <div className="w-fit">
                     <UserCard
-                        imageName="TechCoLeadImage.png"
+                        imageName="ResearchLeadCropped.png"
                         color="#ec4899"
                         name="Aksh Raizada"
                         role="Research Lead"
