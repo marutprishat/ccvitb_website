@@ -22,14 +22,14 @@ const TheTeam = (): JSX.Element => {
             </div>
             <div className="w-full flex flex-row justify-evenly flex-wrap gap-y-16 mb-12">
                 <BossCard
-                    imageName="FacultyCoordinatorImage.png"
-                    color="#ff4c65"
-                    name="Nancy Kumari"
+                    imageName="FacultyCoordinator2ndCropped.png"
+                    color="#60a5fa"
+                    name="Asst. Prof. Nancy Kumari"
                     role="Faculty Coordinator"
                 />
                 <BossCard
                     imageName="PresidentImageCropped.png"
-                    color="#2563eb"
+                    color="#3b82f6"
                     name="Sudhanshu Ranjan"
                     role="President"
                 />
@@ -46,7 +46,7 @@ const TheTeam = (): JSX.Element => {
                 <div className="w-fit">
                     <UserCard
                         imageName="HRLeadCropped.png"
-                        color="#fbbf24"
+                        color="#facc15"
                         name="Vanshika Tiwari"
                         role="HR Lead"
                     />
