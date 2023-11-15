@@ -11,7 +11,7 @@ import BossCard from "../components/BossCard";
 
 const TheTeam = (): JSX.Element => {
     return (
-        <div className=" w-full">
+        <div id="Team" className="w-full">
             <div className="w-full text-center mb-12">
                 <div className="[font-family:'Inter-ExtraBold',Helvetica] font-extrabold text-[#015478] text-[68.8px] text-center tracking-[0] leading-[normal] whitespace-nowrap">
                     The Team
@@ -37,7 +37,7 @@ const TheTeam = (): JSX.Element => {
             <div className='mb-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-y-16 place-items-center'>
                 <div className="w-fit">
                     <UserCard
-                        imageName="PRLead2ndCropped.png"
+                        imageName="PRLeadCropped.png"
                         color="#22c55e"
                         name="Ayushi Agarwal"
                         role="PR Lead"
@@ -61,7 +61,7 @@ const TheTeam = (): JSX.Element => {
                 </div>
                 <div className="w-fit">
                     <UserCard
-                        imageName="ResearchLeadCropped.png"
+                        imageName="ResearchLead2ndCropped.png"
                         color="#ec4899"
                         name="Aksh Raizada"
                         role="Research Lead"
@@ -85,7 +85,7 @@ const TheTeam = (): JSX.Element => {
                 </div>
                 <div className="w-fit">
                     <UserCard
-                        imageName="EventLead2ndCropped.png"
+                        imageName="EventLeadCropped.png"
                         color="#2dd4bf"
                         name="Sneha Prasad"
                         role="Event Lead"
