@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Navbar = () => {
     return (
-        <div className="sticky top-0 w-full px-2 sm:px-10 py-2 sm:py-5 z-50 bg-gradient-to-r from-[#6ebf49] to-[#00bcea] to-[70%] sm:to-[50%]">
+        <div className="sticky top-0 w-full px-2 sm:px-10 py-2 sm:py-4 z-50 bg-gradient-to-r from-[#6ebf49] to-[#00bcea] to-[70%] sm:to-[50%]">
             <div className="w-full flex items-center justify-between gap-x-10 backdrop-blur-md">
                 <Image
                     className="w-[120px] h-[50px] sm:w-[176px] sm:h-[70px] object-contain"

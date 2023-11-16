@@ -45,7 +45,7 @@ const TheTeam = (): JSX.Element => {
                 </div>
                 <div className="w-fit">
                     <UserCard
-                        imageName="HRLeadCropped.png"
+                        imageName="HRLead.png"
                         color="#facc15"
                         name="Vanshika Tiwari"
                         role="HR Lead"
@@ -77,7 +77,7 @@ const TheTeam = (): JSX.Element => {
                 </div>
                 <div className="w-fit">
                     <UserCard
-                        imageName="CreativeLeadCropped.png"
+                        imageName="CreativeLead.png"
                         color="#a78bfa"
                         name="Khyati Tiwari"
                         role="Creative Lead"
@@ -85,7 +85,7 @@ const TheTeam = (): JSX.Element => {
                 </div>
                 <div className="w-fit">
                     <UserCard
-                        imageName="EventLeadCropped.png"
+                        imageName="EventLead.png"
                         color="#2dd4bf"
                         name="Sneha Prasad"
                         role="Event Lead"
