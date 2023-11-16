@@ -11,7 +11,7 @@ import BossCard from "../components/BossCard";
 
 const TheTeam = (): JSX.Element => {
     return (
-        <div id="Team" className="w-full">
+        <div id="Team" className="w-full mb-16">
             <div className="w-full text-center mb-12">
                 <div className="[font-family:'Inter-ExtraBold',Helvetica] font-extrabold text-[#015478] text-[68.8px] text-center tracking-[0] leading-[normal] whitespace-nowrap">
                     The Team
@@ -34,15 +34,15 @@ const TheTeam = (): JSX.Element => {
                     role="President"
                 />
             </div>
-            <div className='mb-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-y-16 place-items-center'>
-                <div className="w-fit">
+            <div className='mb-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-5 gap-y-16 place-items-center'>
+                {/* <div className="w-fit">
                     <UserCard
                         imageName="PRLeadCropped.png"
                         color="#22c55e"
                         name="Ayushi Agarwal"
                         role="PR Lead"
                     />
-                </div>
+                </div> */}
                 <div className="w-fit">
                     <UserCard
                         imageName="HRLead.png"
@@ -67,14 +67,14 @@ const TheTeam = (): JSX.Element => {
                         role="Research Lead"
                     />
                 </div>
-                <div className="w-fit">
+                {/* <div className="w-fit">
                     <UserCard
                         imageName="ScribingLeadCropped.png"
                         color="#fb923c"
                         name="Ayush Bhatt"
                         role="Scribing Lead"
                     />
-                </div>
+                </div> */}
                 <div className="w-fit">
                     <UserCard
                         imageName="CreativeLead.png"

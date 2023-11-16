@@ -3,7 +3,7 @@ import Image from "next/image"
 const Contact = () => {
     return (
         <div id="Contact" className="relative flex justify-center flex-wrap sm:flex-nowrap gap-8">
-            <div className="relative w-full overflow-hidden flex flex-col justify-between">
+            <div className="relative w-full overflow-hidden flex flex-col justify-between pb-2">
                 <div className="text-[46.42px]">Let&apos;s Get In <span className="font-bold text-[#015578]">Touch!</span></div>
 
                 <p className="text-[15.47px] mb-4 max-w-[300px]">Have a question or need assistance? Reach out to us via email, phone, or the contact form here. We&apos;re eager to hear from you.</p>
