@@ -1,9 +1,10 @@
+import About from "./About";
 import TheTeam from "./TheTeam";
-import Footer from "../components/footer/Footer";
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col">
+      <About/>
       <TheTeam/>
     </main>
   )
