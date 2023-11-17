@@ -1,7 +1,7 @@
 import AboutUs from "./AboutUs";
 import Contact from "./Contact";
 import TheTeam from "./TheTeam";
-import Timeline from "../components/timeline";
+import Timeline from "./timeline";
 import Hero from "./Hero";
 
 export default function Home() {

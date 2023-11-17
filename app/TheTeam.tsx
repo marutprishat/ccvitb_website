@@ -34,7 +34,7 @@ const TheTeam = (): JSX.Element => {
                     role="President"
                 />
             </div>
-            <div className='mb-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-5 gap-y-16 place-items-center'>
+            <div className='mb-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-y-16 place-items-center'>
                 {/* <div className="w-fit">
                     <UserCard
                         imageName="PRLeadCropped.png"
@@ -83,14 +83,14 @@ const TheTeam = (): JSX.Element => {
                         role="Creative Lead"
                     />
                 </div>
-                <div className="w-fit">
+                {/* <div className="w-fit">
                     <UserCard
                         imageName="EventLead.png"
                         color="#2dd4bf"
                         name="Sneha Prasad"
                         role="Event Lead"
                     />
-                </div>
+                </div> */}
             </div>
         </div>
     );

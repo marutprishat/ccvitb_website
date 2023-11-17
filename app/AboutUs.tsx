@@ -22,7 +22,7 @@ const AboutUs = (): JSX.Element => {
                             Together, we aim to transform networking experiences, driven by curiosity and a shared commitment to
                             pushing technological boundaries.
                         </p>
-                        <button className="px-[31.96px] py-[19.97px] bg-[#002b3d] rounded-[7.99px] all-[unset] box-border">
+                        <button className="px-[31.96px] py-[19.97px] bg-[#015478] rounded-[20px] shadow-[4px_10px_20px_#002b3d78] all-[unset] box-border">
                             <div className="w-fit [font-family:'Urbanist-Bold',Helvetica] font-bold text-white text-[20px] text-center leading-[22.0px] whitespace-nowrap">
                                 Explore
                             </div>
