@@ -22,6 +22,9 @@ const Timeline = () => {
                             <p class="text-base font-normal text-gray-500 dark:text-gray-400">Get started with dozens of web components and interactive elements.</p>
                         </div>
                     </li>
+                    <li>
+                        
+                    </li>
                     <li class="relative mb-6 sm:mb-0">
                         <div class="flex items-center">
                             <div class="z-10 flex items-center justify-center w-6 h-6 bg-white-100 rounded-full ring-0 ring-white dark:bg-white-900 sm:ring-8 dark:ring-yellow-500 shrink-0">
@@ -53,7 +56,7 @@ const Timeline = () => {
                         </div>
                     </li>
                 </ol>
-                <button className="mt-10 p-2 w-60 rounded-3xl bg-gradient-to-r from-green-500 to-blue-900">Follow</button>
+                <button className="mt-10 p-2 w-60 rounded-3xl bg-gradient-to-r from-green-500 to-blue-900 font-Poppins text-white font-bold">Follow</button>
             </div>
         </div>
     )
