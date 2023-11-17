@@ -10,11 +10,11 @@ const Hero = () => {
 
       <div className="relative z-20 flex flex-1 flex-col xl:w-1/2">
         <Image 
-          src="/rocket.png"
+          src="/Images/rocket.png"
           alt="rocket"
           width={50}
           height={50}
-          className="absolute left-[-18px] top-[-80px] w-10 lg:w-[130px] "
+          className="absolute left-[-18px] top-[-85px] w-10 lg:w-[130px] "
         />
         <h1 className="bold-52 lg:bold-87" style={{ color: 'rgb(110, 190, 74)' }}>DIVE INTO THE WONDERS OF THE CONNECTICITY</h1>
         
