@@ -29,7 +29,7 @@ const Footer = () => {
             <div className="h-300px flex flex-col md:flex-row justify-center items-center bg-black mb-10">
                 <div className="w-45 m-5 pb-10 flex flex-col">
                     <Image className="mx-5" src={Logo} width={150} height={150} alt="Cisco Community Logo" />
-                    <h1 className="mx-5 mt-6 w-22 text-white font-Poppins text-3xl font-bold">Get your career&apos;s inital</h1>
+                    <h1 className="mx-5 mt-6 w-22 text-white font-Poppins text-3xl font-bold">Get your career&apos;s initial</h1>
                     <h1 className="mx-5 mb-7 w-22 text-white font-Poppins text-3xl font-bold">boost with our community.</h1>
                     <form className="mx-5">
                         {
@@ -51,7 +51,7 @@ const Footer = () => {
                     <Link href={"#"}>Features</Link>
                 </li>
                 <li className="mx-5">
-                    <Link href={"#"}>Team Members</Link>
+                    <Link href={"#Team"}>Team Members</Link>
                 </li>
                 <li className="mx-5">
                     <Link href={"#"}>News & Blogs</Link>
@@ -60,7 +60,7 @@ const Footer = () => {
                     <Link href={"#"}>Careers</Link>
                 </li>
                 <li className="mx-5">
-                    <Link href={"/about"}>About Us</Link>
+                    <Link href={"#About"}>About Us</Link>
                 </li>
                 <li className="mx-5">
                     <Link href={"#"}>Terms</Link>
