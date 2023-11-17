@@ -3,7 +3,7 @@ import React from "react";
 
 const AboutUs = (): JSX.Element => {
     return (
-        <div id="About" className="w-full mb-16">
+        <div id="About" className="mx-10 mb-16">
             <div className="flex flex-col gap-y-10">
 
                 {/* title and paragraph */}
