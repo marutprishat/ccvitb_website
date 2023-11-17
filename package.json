@@ -9,12 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "framer-motion": "^10.16.5",
     "next": "^14.0.3",
     "react": "^18",
     "react-animations": "^1.0.0",
     "react-dom": "^18",
     "react-tweet": "^3.1.1",
-    "react-useanimations": "^2.10.0"
+    "react-useanimations": "^2.10.0",
+    "typewriter-effect": "^2.21.0"
   },
   "devDependencies": {
     "@types/node": "^20",
