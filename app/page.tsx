@@ -6,9 +6,10 @@ import Hero from "./Hero";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col">
+    <main className="flex min-h-screen flex-col px-4">
       <Hero/>
       <AboutUs/>
+      <Timeline/>
       <TheTeam/>
       <Contact/>
     </main>
