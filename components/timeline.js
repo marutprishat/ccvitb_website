@@ -1,10 +1,7 @@
 
-
-
-
 const Timeline = () => {
     return (
-        <div className="m-12 flex flex-col items-center ">
+        <div id="Timeline" className="m-12 flex flex-col items-center ">
             <h1 className="m-4 text-5xl font-bold text-[#015478]">The Timeline</h1>
             <h2 className="mt-3 text-lg text-emerald-300">Here are all past, ongoing and upcoming events organized by</h2>
             <h2 className="mb-4 text-lg text-emerald-300">our club in offline and online mode.</h2>
