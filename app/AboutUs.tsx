@@ -1,9 +1,8 @@
 import Image from "next/image";
-import React from "react";
 
 const AboutUs = (): JSX.Element => {
     return (
-        <div id="About" className="mx-10 mb-16">
+        <div id="About" className="mb-16 pt-28">
             <div className="flex flex-col gap-y-10">
 
                 {/* title and paragraph */}

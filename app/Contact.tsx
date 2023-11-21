@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const Contact = () => {
     return (
-        <div id="Contact" className="mr-5 relative flex justify-center flex-wrap sm:flex-nowrap gap-4 sm:gap-8">
+        <div id="Contact" className="pt-28 mr-5 relative flex justify-center flex-wrap sm:flex-nowrap gap-4 sm:gap-8">
             <div className="mx-10 relative w-full sm:w-1/2 overflow-hidden flex flex-col justify-between pb-2">
                 <div className="text-[46.42px]">Let&apos;s Get In <span className="font-bold text-[#015578]">Touch!</span></div>
 

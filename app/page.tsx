@@ -7,6 +7,7 @@ import Timeline from "./timeline";
 import Hero from "./Hero";
 import React, { useEffect, useRef } from "react";
 import { motion, useInView, useAnimation, useIsPresent } from "framer-motion";
+import EventsTimeline from "./EventsTimeline";
 
 export default function Home() {
   const ref = useRef(null);
@@ -31,7 +32,8 @@ export default function Home() {
       >
         <Hero />
         <AboutUs />
-        <Timeline />
+        {/* <Timeline /> */}
+        <EventsTimeline/>
         <TheTeam />
         <Contact />
       </motion.div>

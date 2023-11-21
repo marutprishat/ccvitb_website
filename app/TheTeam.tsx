@@ -11,7 +11,7 @@ import BossCard from "../components/BossCard";
 
 const TheTeam = (): JSX.Element => {
     return (
-        <div id="Team" className="w-full mb-16">
+        <div id="Team" className="w-full mb-16 pt-28">
             <div className="w-full text-center mb-12">
                 <div className="[font-family:'Inter-ExtraBold',Helvetica] font-extrabold text-[#015478] text-[68.8px] text-center tracking-[0] leading-[normal] whitespace-nowrap">
                     The Team
