@@ -1,9 +1,8 @@
 import Image from "next/image";
-import React from "react";
 
 const AboutUs = (): JSX.Element => {
     return (
-        <div id="About" className="w-full mb-16">
+        <div id="About" className="mb-16 pt-28">
             <div className="flex flex-col gap-y-10">
 
                 {/* title and paragraph */}
@@ -22,7 +21,7 @@ const AboutUs = (): JSX.Element => {
                             Together, we aim to transform networking experiences, driven by curiosity and a shared commitment to
                             pushing technological boundaries.
                         </p>
-                        <button className="px-[31.96px] py-[19.97px] bg-[#002b3d] rounded-[7.99px] all-[unset] box-border">
+                        <button className="px-[31.96px] py-[19.97px] bg-[#015478] rounded-[20px] shadow-[4px_10px_20px_#002b3d78] all-[unset] box-border">
                             <div className="w-fit [font-family:'Urbanist-Bold',Helvetica] font-bold text-white text-[20px] text-center leading-[22.0px] whitespace-nowrap">
                                 Explore
                             </div>
