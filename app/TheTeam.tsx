@@ -35,22 +35,7 @@ const TheTeam = (): JSX.Element => {
                 />
             </div>
             <div className='mb-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-y-16 place-items-center'>
-                {/* <div className="w-fit">
-                    <UserCard
-                        imageName="PRLeadCropped.png"
-                        color="#22c55e"
-                        name="Ayushi Agarwal"
-                        role="PR Lead"
-                    />
-                </div> */}
-                <div className="w-fit">
-                    <UserCard
-                        imageName="HRLead.png"
-                        color="#facc15"
-                        name="Vanshika Tiwari"
-                        role="HR Lead"
-                    />
-                </div>
+
                 <div className="w-fit">
                     <UserCard
                         imageName="TechLeadCropped.png"
@@ -61,18 +46,26 @@ const TheTeam = (): JSX.Element => {
                 </div>
                 <div className="w-fit">
                     <UserCard
-                        imageName="ResearchLead2ndCropped.png"
-                        color="#ec4899"
-                        name="Aksh Raizada"
-                        role="Research Lead"
+                        imageName="HRLead.png"
+                        color="#facc15"
+                        name="Vanshika Tiwari"
+                        role="HR Lead"
                     />
                 </div>
                 {/* <div className="w-fit">
                     <UserCard
-                        imageName="ScribingLeadCropped.png"
-                        color="#fb923c"
-                        name="Ayush Bhatt"
-                        role="Scribing Lead"
+                        imageName="PRLeadCropped.png"
+                        color="#22c55e"
+                        name="Ayushi Agarwal"
+                        role="PR Lead"
+                    />
+                </div> */}
+                {/* <div className="w-fit">
+                    <UserCard
+                        imageName="EventLead.png"
+                        color="#2dd4bf"
+                        name="Sneha Prasad"
+                        role="Event Lead"
                     />
                 </div> */}
                 <div className="w-fit">
@@ -85,12 +78,20 @@ const TheTeam = (): JSX.Element => {
                 </div>
                 {/* <div className="w-fit">
                     <UserCard
-                        imageName="EventLead.png"
-                        color="#2dd4bf"
-                        name="Sneha Prasad"
-                        role="Event Lead"
+                        imageName="ScribingLeadCropped.png"
+                        color="#fb923c"
+                        name="Ayush Bhatt"
+                        role="Scribing Lead"
                     />
                 </div> */}
+                <div className="w-fit">
+                    <UserCard
+                        imageName="ResearchLead2ndCropped.png"
+                        color="#ec4899"
+                        name="Aksh Raizada"
+                        role="Research Lead"
+                    />
+                </div>
             </div>
         </div>
     );
