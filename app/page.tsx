@@ -3,7 +3,7 @@
 import AboutUs from "./AboutUs";
 import Contact from "./Contact";
 import TheTeam from "./TheTeam";
-import Timeline from "./timeline";
+// import Timeline from "./timeline";
 import Hero from "./Hero";
 import React, { useEffect, useRef } from "react";
 import { motion, useInView, useAnimation, useIsPresent } from "framer-motion";

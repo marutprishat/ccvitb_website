@@ -8,15 +8,15 @@ interface Props {
 const EventsCard: React.FC<Props> = ({ eventTitle, eventDetails }) => {
     return (
         <div className="card lg:card-side bg-base-100 shadow-xl">
-            <figure className=''>
+            <figure className='w-1/3'>
                 <Image
-                    src="/figures/astronaut.png"
+                    src="/figures/rocket.png"
                     alt="Album"
-                    width={200}
-                    height={400}
+                    width={100}
+                    height={100}
                 />
             </figure>
-            <div className="card-body">
+            <div className="card-body w-2/3">
                 <h2 className="card-title">{eventTitle}</h2>
                 <p>{eventDetails}</p>
                 <div className="card-actions justify-end">

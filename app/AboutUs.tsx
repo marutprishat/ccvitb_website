@@ -12,26 +12,18 @@ const AboutUs = (): JSX.Element => {
                             Who are we?
                         </div>
                         <p className="[font-family:'Inter-Bold',Helvetica] font-bold text-[#015478] text-[63.9px]  leading-[normal]">
-                            We are the team of enthusiasts
+                            Passionate Minds, United in Purpose
                         </p>
                     </div>
                     <div className="lg:w-1/2 flex flex-col items-start justify-between gap-4">
-                        <p className="[font-family:'Inter-Regular',Helvetica] font-normal text-[#343434] text-[16px] leading-[28.0px]">
-                            We are the Cisco community of enthusiasts, fueled by a passion for innovation and collaboration.
-                            Together, we aim to transform networking experiences, driven by curiosity and a shared commitment to
-                            pushing technological boundaries.
+                        <p className="[font-family:'Inter-Regular',Helvetica] font-normal text-[#00000087] text-[25px] tracking-[0] leading-[normal]">
+                            We are the vibrant Cisco community of impassioned enthusiasts, driven by an unwavering dedication to innovation and collaboration. Together, we aspire to revolutionize networking experiences, guided by curiosity and a collective commitment to pushing the frontiers of technology.
                         </p>
                         <button className="px-[31.96px] py-[19.97px] bg-[#015478] rounded-[20px] shadow-[4px_10px_20px_#002b3d78] all-[unset] box-border">
                             <div className="w-fit [font-family:'Urbanist-Bold',Helvetica] font-bold text-white text-[20px] text-center leading-[22.0px] whitespace-nowrap">
                                 Explore
                             </div>
-                            {/* <Image
-                                    className="w-[23.97px] h-[23.97px]"
-                                    alt="Vuesax linear arrow"
-                                    src="/arrow-right.png"
-                                    width={24}
-                                    height={24}
-                                /> */}
+
                         </button>
                     </div>
                 </div>
@@ -53,8 +45,7 @@ const AboutUs = (): JSX.Element => {
                                 Tech Solutions, Smart Savings
                             </div>
                             <p className="[font-family:'Inter-Light',Helvetica] font-light text-neutral-500 text-[16px] text-justify tracking-[-0.32px] leading-[normal]">
-                                Unlock cost-effective networking solutions tailored to your needs, ensuring maximum value for your
-                                investment. Our community thrives on efficiency, making every dollar count.
+                                Optimize your networking solutions for cost-effectiveness, delivering maximum value for your investment in our efficient community.
                             </p>
                         </div>
                     </div>
@@ -73,8 +64,7 @@ const AboutUs = (): JSX.Element => {
                                 Leverage Data Intelligence
                             </div>
                             <p className="[font-family:'Inter-Light',Helvetica] font-light text-neutral-500 text-[16px] text-justify tracking-[-0.32px] leading-[normal]">
-                                Dive into analytics-driven insights, transforming raw data into actionable strategies. Stay ahead of
-                                the curve with our community&#39;s commitment to harnessing the power of statistics.
+                                Delve into analytics for actionable insights. Our community excels in leveraging statistical power to keep you ahead.
                             </p>
                         </div>
                     </div>
@@ -93,8 +83,7 @@ const AboutUs = (): JSX.Element => {
                                 Optimize for Efficiency
                             </div>
                             <p className="[font-family:'Inter-Light',Helvetica] font-light text-neutral-500 text-[16px] text-justify tracking-[-0.32px] leading-[normal]">
-                                Embrace streamlined processes and best practices, boosting efficiency across your network
-                                infrastructure. Join us in redefining efficiency standards within the dynamic landscape of networking.
+                                Embrace streamlined processes and best practices for network efficiency. Redefine standards in the dynamic networking landscape with us.
                             </p>
                         </div>
                     </div>
