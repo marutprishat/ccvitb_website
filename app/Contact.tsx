@@ -2,8 +2,8 @@ import Image from "next/image"
 
 const Contact = () => {
     return (
-        <div id="Contact" className="pt-28 mr-5 relative flex justify-center flex-wrap sm:flex-nowrap gap-4 sm:gap-8">
-            <div className="mx-10 relative w-full sm:w-1/2 overflow-hidden flex flex-col justify-between pb-2">
+        <div id="Contact" className="relative flex justify-center flex-wrap sm:flex-nowrap gap-4 sm:gap-8">
+            <div className=" relative w-full sm:w-1/2 overflow-hidden flex flex-col justify-between pb-2">
                 <div className="text-[46.42px]">Let&apos;s Get In <span className="font-bold text-[#015578]">Touch!</span></div>
 
                 <p className="text-[15.47px] mb-4 max-w-[300px]">Have a question or need assistance? Reach out to us via email, phone, or the contact form here. We&apos;re eager to hear from you.</p>
@@ -95,7 +95,7 @@ const Contact = () => {
             <div className="hidden lg:block -z-1 absolute left-[25%] bottom-[40px] bg-[#015578] h-[70px] w-[400px] opacity-[15%] rounded-[102px] -rotate-[30deg] -translate-y-36 " />
             <div className="hidden lg:block -z-1 absolute left-[26%] bottom-[10px] bg-[#015578] h-[70px] w-[400px] opacity-[15%] rounded-[102px] -rotate-[30deg] -translate-y-20 " />
 
-            <div className="w-full sm:w-1/2 bg-[#bdeb82] rounded-t-[48.35px] p-12 lg:px-36">
+            <div className="w-full sm:w-1/2 bg-[#bdeb82] rounded-t-[48.35px] p-12 lg:px-28">
                 <div className="h-full w-full flex flex-col items-center justify-between">
                     {/* Full Name */}
                     <label className="block w-full font-semibold">
@@ -106,7 +106,6 @@ const Contact = () => {
                             placeholder="Full Name"
                         />
                     </label>
-
                     {/* Email */}
                     <label className="block w-full mt-7 font-semibold">
                         Email:<br />
@@ -116,13 +115,11 @@ const Contact = () => {
                             placeholder="Email"
                         />
                     </label>
-
                     {/* Message */}
                     <label className="block w-full mt-7 font-semibold">
                         Message:<br />
                         <textarea className="px-4 font-normal w-full h-36 rounded-[19.34px] bg-cornflowerblue box-border border-[1px] border-solid border-black" placeholder="Type your message" />
                     </label>
-
                     {/* Submit Btn */}
                     <button type="submit" className="w-2/5 h-10 mt-7 block place-self-end rounded-[11.61px] bg-black text-white box-border font-medium">
                         <span className="font-medium">Submit</span>

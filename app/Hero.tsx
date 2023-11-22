@@ -30,7 +30,7 @@ const HeroSection = () => {
               }}
             />
           </h1>
-          <p className="sm:w-[400px] lg:w-[620px] [font-family:'Inter-Regular',Helvetica] font-normal text-[#00000099] text-[19.2px] tracking-[0] leading-[29px] mb-10">
+          <p className="sm:w-[400px] lg:w-[620px] [font-family:'Inter-Regular',Helvetica] font-normal text-[#00000099] dark:text-[#a6adbb] text-[19.2px] tracking-[0] leading-[29px] mb-10">
             Embark on a tech odyssey at Cisco Community, VIT Bhopal. Explore Networking Wonders, connect with experts,
             and shape the future. Join us in shaping tomorrow&#39;s connectivity!
           </p>
