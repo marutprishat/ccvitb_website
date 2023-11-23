@@ -1,13 +1,15 @@
 import Image from "next/image";
+import Link from "next/link";
 
 interface UserCardProps {
     imageName: string;
     color: string;
     name: string;
     role: string;
+    link: string; // linkedin link
 }
 
-const UserCard: React.FC<UserCardProps> = ({ imageName, color, name, role }) => {
+const UserCard: React.FC<UserCardProps> = ({ imageName, color, name, role, link }) => {
     return (
         <div className="w-fit">
             <div className={`aspect-[2/3] h-[312px] border-[2.5px] border-solid border-[${color}] rounded-[22.34px] p-[4px]`}> {/*layer1*/}
@@ -24,7 +26,7 @@ const UserCard: React.FC<UserCardProps> = ({ imageName, color, name, role }) => 
 
                     <div className="absolute bottom-2 left-3 text-white">
                         <div className="text-base tracking-wide font-bold whitespace-nowrap">
-                            {name}
+                            <Link href={`${link}`} target="_blank">{name}</Link>
                         </div>
                         <div className="flex items-center w-fit p-1 rounded-full shadow-[0px_1.66px_1.66px_#00000040] backdrop-blur-md backdrop-brightness-[100%] bg-gradient-to-r from-[rgba(29.75,27.89,27.89,0.6)] via-[rgba(29.75,27.89,27.89,0.47)] to-[rgba(29.75,27.89,27.89,0.58)]">
                             <Image

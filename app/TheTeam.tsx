@@ -26,12 +26,14 @@ const TheTeam = (): JSX.Element => {
                     color="#60a5fa"
                     name="Asst. Prof. Nancy Kumari"
                     role="Faculty Coordinator"
+                    link="https://in.linkedin.com/in/dr-nancy-kumari "
                 />
                 <BossCard
                     imageName="PresidentImageCropped.png"
                     color="#3b82f6"
                     name="Sudhanshu Ranjan"
                     role="President"
+                    link="https://www.linkedin.com/in/sudhanshu-ranjan-7a3305216/"
                 />
             </div>
             <div className='mb-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-y-16 place-items-center'>
@@ -42,6 +44,7 @@ const TheTeam = (): JSX.Element => {
                         color="#06b6d4"
                         name="Rishav Kumar"
                         role="Tech Lead"
+                        link="https://www.linkedin.com/in/rissshaaav/"
                     />
                 </div>
                 <div className="w-fit">
@@ -50,6 +53,7 @@ const TheTeam = (): JSX.Element => {
                         color="#facc15"
                         name="Vanshika Tiwari"
                         role="HR Lead"
+                        link="https://www.linkedin.com/in/vanshika-tiwari-79a019222/"
                     />
                 </div>
                 {/* <div className="w-fit">
@@ -74,6 +78,7 @@ const TheTeam = (): JSX.Element => {
                         color="#a78bfa"
                         name="Khyati Tiwari"
                         role="Creative Lead"
+                        link="https://www.linkedin.com/in/khyati-tiwari-4876b6250/"
                     />
                 </div>
                 {/* <div className="w-fit">
@@ -90,6 +95,7 @@ const TheTeam = (): JSX.Element => {
                         color="#ec4899"
                         name="Aksh Raizada"
                         role="Research Lead"
+                        link="https://www.linkedin.com/in/aksh-raizada/"
                     />
                 </div>
             </div>
