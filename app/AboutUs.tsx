@@ -2,16 +2,16 @@ import Image from "next/image";
 
 const AboutUs = (): JSX.Element => {
     return (
-        <div id="About" className="mb-16 ">
-            <div className="flex flex-col gap-y-10">
+        <div id="About" className="mb-20 px-4 sm:px-8">
+            <div className="flex flex-col gap-y-20">
 
                 {/* title and paragraph */}
                 <div className="flex justify-between flex-wrap gap-4 lg:gap-0">
                     <div className="lg:w-1/2">
-                        <div className="w-fit [font-family:'Inter-Bold',Helvetica] font-bold text-[#002b3d] dark:text-[#00bcea] text-[24px] whitespace-nowrap">
+                        <div className="w-fit [font-family:'Inter-Bold',Helvetica] font-bold text-[#002b3d] text-[24px] whitespace-nowrap">
                             Who are we?
                         </div>
-                        <p className="[font-family:'Inter-Bold',Helvetica] font-bold text-[#015478] text-[63.9px]  leading-[normal]">
+                        <p className="[font-family:'Inter-Bold',Helvetica] font-bold text-[#005071] text-[63.9px]  leading-[normal]">
                             Passionate Minds, United in Purpose
                         </p>
                     </div>

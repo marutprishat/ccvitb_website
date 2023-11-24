@@ -1,10 +1,11 @@
 import Image from "next/image"
+import Link from "next/link";
 
 const Contact = () => {
     return (
-        <div id="Contact" className="relative flex justify-center flex-wrap sm:flex-nowrap gap-4 sm:gap-8">
+        <div id="Contact" className="px-4 relative flex justify-center flex-wrap sm:flex-nowrap gap-4 sm:gap-8">
             <div className=" relative w-full sm:w-1/2 overflow-hidden flex flex-col justify-between pb-2">
-                <div className="text-[46.42px]">Let&apos;s Get In <span className="font-bold text-[#015578]">Touch!</span></div>
+                <div className="text-[46.42px]">Let&apos;s Get In <span className="font-bold text-[#005071]">Touch!</span></div>
 
                 <p className="text-[15.47px] mb-4 max-w-[300px]">Have a question or need assistance? Reach out to us via email, phone, or the contact form here. We&apos;re eager to hear from you.</p>
 
@@ -59,41 +60,44 @@ const Contact = () => {
                     </div>
 
                     <div className="flex flex-row items-center justify-evenly sm:justify-start gap-10">
-                        <Image
-                            className="w-[18.8px] h-[18.8px]"
-                            alt=""
-                            src="/icons/instagram.svg"
-                            width={18.8}
-                            height={18.8}
-                        />
-                        <Image
-                            className="w-[20.9px] h-[17px]"
-                            alt=""
-                            src="/icons/twitter.svg"
-                            width={20.9}
-                            height={17}
-                        />
-                        <Image
-                            className="w-5 h-5"
-                            alt=""
-                            src="/icons/facebook.svg"
-                            width={5}
-                            height={5}
-                        />
-                        <Image
+                        <Link href='https://www.instagram.com/ciscovitb/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==' target="_blank">
+                            <Image
+                                src='/icons/instagram.svg'
+                                alt="insta"
+                                height={25}
+                                width={25}
+                            />
+                        </Link>
+                        <Link href='https://x.com/CiscoVitB?s=20' target="_blank">
+                            <Image
+                                src='/icons/twitter.svg'
+                                alt="insta"
+                                height={25}
+                                width={25}
+                            />
+                        </Link>
+                        <Link href='https://www.linkedin.com/company/cisco-vit-bhopal/' target="_blank">
+                            <Image
+                                src='/icons/linkedin.svg'
+                                alt="insta"
+                                height={25}
+                                width={25}
+                            />
+                        </Link>
+                        {/* <Image
                             className="w-5 h-3.5"
                             alt=""
                             src="/icons/youtube.svg"
                             width={5}
                             height={3.5}
-                        />
+                        /> */}
                     </div>
                 </div>
                 <div className="absolute bottom-[-280px] right-0 bg-[#87db1c] opacity-[15%] w-[573px] h-[573px] rounded-full -z-10" />
             </div>
 
-            <div className="hidden lg:block -z-1 absolute left-[25%] bottom-[40px] bg-[#015578] h-[70px] w-[400px] opacity-[15%] rounded-[102px] -rotate-[30deg] -translate-y-36 " />
-            <div className="hidden lg:block -z-1 absolute left-[26%] bottom-[10px] bg-[#015578] h-[70px] w-[400px] opacity-[15%] rounded-[102px] -rotate-[30deg] -translate-y-20 " />
+            <div className="hidden lg:block -z-1 absolute left-[25%] bottom-[40px] bg-[#005071] h-[70px] w-[400px] opacity-[15%] rounded-[102px] -rotate-[30deg] -translate-y-36 " />
+            <div className="hidden lg:block -z-1 absolute left-[26%] bottom-[10px] bg-[#005071] h-[70px] w-[400px] opacity-[15%] rounded-[102px] -rotate-[30deg] -translate-y-20 " />
 
             <div className="w-full sm:w-1/2 bg-[#bdeb82] rounded-t-[48.35px] p-12 lg:px-28">
                 <div className="h-full w-full flex flex-col items-center justify-between">

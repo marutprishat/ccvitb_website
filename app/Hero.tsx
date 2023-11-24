@@ -5,7 +5,7 @@ import Typewriter from 'typewriter-effect';
 
 const HeroSection = () => {
   return (
-    <div id="Home" className="relative w-full overflow-hidden pb-10 sm:pb-0">
+    <div id="Home" className="relative w-full overflow-hidden pb-10 sm:pb-0 px-4 lg:px-0">
       <div className="w-full flex justify-around">
         {/* left side texts */}
         <div className="pt-36 sm:pt-0 relative flex flex-col items-start justify-center">
