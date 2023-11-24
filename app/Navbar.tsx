@@ -5,20 +5,20 @@ import Link from "next/link"
 import { useEffect, useState } from "react";
 
 const Navbar3 = () => {
-    const [theme, setTheme] = useState(localStorage.getItem("theme") ? localStorage.getItem("theme") : "light");
+    // const [theme, setTheme] = useState(localStorage.getItem("theme") ? localStorage.getItem("theme") : "light");
 
-    const handleToggle = (e:any) => {
-        if(e.target.checked){
-            setTheme("dark");
-        } else{
-            setTheme("light");
-        }
-    };
-    useEffect(()=>{
-        localStorage.setItem("theme", theme);
-        const localTheme = localStorage.getItem("theme");
-        document.querySelector("html")?.setAttribute("data-theme", localTheme);
-    }, [theme]);
+    // const handleToggle = (e:any) => {
+    //     if(e.target.checked){
+    //         setTheme("dark");
+    //     } else{
+    //         setTheme("light");
+    //     }
+    // };
+    // useEffect(()=>{
+    //     localStorage.setItem("theme", theme);
+    //     const localTheme = localStorage.getItem("theme");
+    //     document.querySelector("html")?.setAttribute("data-theme", localTheme);
+    // }, [theme]);
 
     return (
         <div className="fixed top-0 left-0 z-10 navbar bg-base-100 bg-gradient-to-r from-[#00bcea] to-[#6ebf49] dark:text-[#a6adbb]">
