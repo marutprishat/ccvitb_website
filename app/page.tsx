@@ -3,7 +3,7 @@
 import AboutUs from "./AboutUs";
 import Contact from "./Contact";
 import TheTeam from "./TheTeam";
-import Timeline from "./timeline";
+// import Timeline from "./timeline";
 import Hero from "./Hero";
 import React, { useEffect, useRef } from "react";
 import { motion, useInView, useAnimation, useIsPresent } from "framer-motion";
@@ -20,7 +20,7 @@ export default function Home() {
     }
   }, [isInView])
   return (
-    <main ref={ref} className="flex min-h-screen flex-col px-4">
+    <main ref={ref} className="flex min-h-screen flex-col">
       <motion.div
         variants={{
           hidden: { opacity: 0, y : 75, left : 0 },

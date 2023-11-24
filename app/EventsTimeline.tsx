@@ -29,10 +29,10 @@ const EventsTimeline = () => {
     ];
     const [selectedEvent, setSelectedEvent] = useState({ title: events[events.length - 1].title, details: events[events.length - 1].details });
     return (
-        <div id='Timeline' className='w-full flex flex-col items-center justify-center pt-28'>
-            <h1 className="[font-family:'Inter-ExtraBold',Helvetica] font-extrabold text-[#015478] text-[68.8px] text-center tracking-[0] leading-[normal] whitespace-nowrap" > The Timeline</h1 >
+        <div id='Timeline' className='w-full flex flex-col items-center justify-center  mb-16'>
+            <h1 className="[font-family:'Inter-ExtraBold',Helvetica] font-extrabold text-[#005071] text-[68.8px] text-center tracking-[0] leading-[normal] whitespace-nowrap" >Timeline</h1 >
 
-            <p className="mt-3 [font-family:'Inter-Regular',Helvetica] font-normal text-[#00000087] text-[25px] text-center tracking-[0] leading-[normal]">Here are all past, ongoing and upcoming events organized by <br /> our club in offline and online mode.</p>
+            <p className="mt-3 [font-family:'Inter-Regular',Helvetica] font-normal text-[#00000087] dark:text-[#a6adbb] text-[25px] text-center tracking-[0] leading-[normal]">Here are all past, ongoing and upcoming events organized by <br /> our club in offline and online mode.</p>
 
             <div className="overflow-auto sm:max-w-[60%] max-h-[400px] p-3 mt-10">
                 <Timeline eventList={events} selectedEvent={selectedEvent} setSelectedEvent={setSelectedEvent}/>

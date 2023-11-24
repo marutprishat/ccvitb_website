@@ -38,7 +38,7 @@ const Footer = () => {
                             </svg>
                                 : null
                         }
-                        <input type="email" placeholder="    Enter your email" className="h-10 p-5 w-80 bg-black border rounded-3xl border-white font-Poppins font-thin text-white" onChange={handleChange} />
+                        <input type="email" placeholder="Enter your email" className="h-10 pl-10 w-80 bg-black border rounded-3xl border-white font-Poppins font-thin text-white" onChange={handleChange} />
                         <button className="sm:mx-5 my-2 mx-2 px-5 h-10 rounded-3xl font-Poppins font-bold text-white text-xs bg-gradient-to-b from-gray-700 via-stone-600 to-lime-600" type="submit">Subscribe</button>
                     </form>
                 </div>
@@ -46,7 +46,7 @@ const Footer = () => {
                     <Twitter />
                 </div>
             </div>
-            <ul className="mx-5 mb-10 flex flex-col md:flex-row xl:mx-40 justify-between text-white font-Poppins">
+            {/* <ul className="mx-5 mb-10 flex flex-col md:flex-row xl:mx-40 justify-between text-white font-Poppins">
                 <li className="mx-5">
                     <Link href={"#"}>Features</Link>
                 </li>
@@ -71,7 +71,7 @@ const Footer = () => {
                 <li className="mx-5">
                     <Link href={"#"}>Cookies</Link>
                 </li>
-            </ul>
+            </ul> */}
             <Image alt="Bottom Line" src={BottomLine} width={1800} />
         </div>
     )
