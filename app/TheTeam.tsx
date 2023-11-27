@@ -29,7 +29,7 @@ const TheTeam = (): JSX.Element => {
                     link="https://in.linkedin.com/in/dr-nancy-kumari "
                 />
                 <BossCard
-                    imageName="PresidentImageCropped.png"
+                    imageName="PresidentImage.png"
                     color="#3b82f6"
                     name="Sudhanshu Ranjan"
                     role="President"

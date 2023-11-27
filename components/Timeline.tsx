@@ -9,7 +9,7 @@ export interface Event {
 interface TimelineProps {
     eventList: Event[]; // Assuming Event[] is the type of your event list
     selectedEvent: Event | null; // Assuming Event is the type of your selected event
-    setSelectedEvent: (event: Event | null) => void; // Function to set the selected event
+    setSelectedEvent: (event: Event) => void; // Function to set the selected event
   }
 const Timeline: React.FC<TimelineProps> = ({ eventList, selectedEvent, setSelectedEvent }) => {
     const currentDate: Date = new Date();
