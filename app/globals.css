@@ -1,4 +1,11 @@
 
 @tailwind base;
+body{
+    max-width: 1920px;
+}
+#wex{
+    max-width: 1920px;
+}
 @tailwind components;
+
 @tailwind utilities;
