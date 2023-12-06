@@ -21,7 +21,7 @@ const Navbar3 = () => {
     // }, [theme]);
 
     return (
-        <div className="fixed top-0 left-0 z-10 navbar bg-base-100 bg-gradient-to-r from-[#00bcea] to-[#6ebf49] dark:text-[#a6adbb]">
+        <div id="wex" className="fixed top-0 left-0 z-10 navbar bg-base-100 bg-gradient-to-r from-[#00bcea] to-[#6ebf49] dark:text-[#a6adbb]">
             <div className="navbar-start">
 
                 {/* belowe div contains menu button icon and drop-down menu visible only on small and medium screens */}
