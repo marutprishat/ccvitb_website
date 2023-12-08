@@ -12,12 +12,12 @@ interface UserCardProps {
 const UserCard: React.FC<UserCardProps> = ({ imageName, color, name, role, link }) => {
     return (
         <div className="w-fit">
-            <div className={`aspect-[2/3] h-[312px] border-[2.5px] border-solid border-[${color}] rounded-[22.34px] p-[4px]`}> {/*layer1*/}
-                <div className={`relative h-[300px] aspect-[2/3] bg-[${color}] rounded-[15.31px] shadow-[0px_4px_200px_10px_${color}]`}> {/*layer 2*/}
+            <div className={`aspect-[2/3] h-[312px] border-[2.5px] border-solid rounded-[22.34px] p-[4px]`} style={{borderColor: `${color}`}}> {/*layer1*/}
+                <div className={`relative h-[300px] aspect-[2/3]  rounded-[15.31px]`} style={{backgroundColor: `${color}`, boxShadow: `0px 5px 250px 12.5px ${color}`}}> {/*layer 2*/}
                     <div className="absolute bottom-0 rounded-b-[15.31px] w-[200px] h-[320px]">
                         <Image
                             className="rounded-b-[15.31px] object-cover object-center"
-                            src={`/images/${imageName}`}
+                            src={`/coreMembers/${imageName}`}
                             alt="Profile Image"
                             fill={true}
                         />

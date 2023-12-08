@@ -16,12 +16,12 @@ const BossCard: React.FC<BossCardProps> = ({ imageName, color, name, role, link 
 
       {/*border-[${2.5*scaleFactor}px] compiles to border-[2.875px]*/}
       <div
-        className={`aspect-[2/3] border-[${2.5 * scaleFactor}px] border-solid border-[${color}] rounded-[22.34px] p-[4px]`}
-        style={{ height: `${312 * scaleFactor}px` }}
+        className={`aspect-[2/3] border-[${2.5 * scaleFactor}px] border-solid  rounded-[22.34px] p-[4px]`}
+        style={{ height: `${312 * scaleFactor}px`, borderColor: `${color}` }}
       > {/*layer1*/}
 
         {/*h-[${300*scaleFactor}px] compiles to h-[345px]*/}
-        <div className={`relative h-[${300 * scaleFactor}px] aspect-[2/3] bg-[${color}] rounded-[15.31px] shadow-[0px_5px_250px_12.5px_${color}]`}> {/*layer 2*/}
+        <div className={`relative h-[${300 * scaleFactor}px] aspect-[2/3]  rounded-[15.31px] `} style={{backgroundColor: `${color}`, boxShadow: `0px 5px 250px 12.5px ${color}`}}> {/*layer 2*/}
 
           {/*w-[${200*scaleFactor}px] compiles to w-[230px]*/}
           {/*h-[${320*scaleFactor}px] compiles to h-[368px]*/}
@@ -31,7 +31,7 @@ const BossCard: React.FC<BossCardProps> = ({ imageName, color, name, role, link 
           >
             <Image
               className="rounded-b-[15.31px] object-cover object-center"
-              src={`/images/${imageName}`}
+              src={`/coreMembers/${imageName}`}
               alt="Profile Image"
               fill={true}
             />

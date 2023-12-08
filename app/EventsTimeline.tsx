@@ -22,7 +22,7 @@ const EventsTimeline = () => {
             title: "First Recruitment",
             date: "Sept. 20, 2023",
             details: "The Cisco Community is a vibrant hub dedicated to uniting students with Cisco's groundbreaking technologies. Dive into technical workshops, campus events, and engaging experiences. Explore Cisco's innovative products, immerse in our unique culture, and gain insights into cutting-edge technologies. Our goal is to offer enriching events, fostering understanding and equipping you with valuable knowledge for a promising future in Cisco's evolving tech landscape.",
-            image: "/images/Recruitment.jpg"
+            image: "/events/Recruitment.jpg"
         },
         {
             title: "Community Inauguration",

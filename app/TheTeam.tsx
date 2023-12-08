@@ -22,25 +22,33 @@ const TheTeam = (): JSX.Element => {
             </div>
             <div className="w-full flex flex-row justify-evenly flex-wrap gap-y-16 mb-12">
                 <BossCard
-                    imageName="FacultyCoordinator2ndCropped.png"
+                    imageName="FacultyCoordinator.png"
                     color="#60a5fa"
                     name="Asst. Prof. Nancy Kumari"
                     role="Faculty Coordinator"
                     link="https://in.linkedin.com/in/dr-nancy-kumari "
                 />
                 <BossCard
-                    imageName="PresidentImage.png"
+                    imageName="President.png"
                     color="#3b82f6"
                     name="Sudhanshu Ranjan"
                     role="President"
                     link="https://www.linkedin.com/in/sudhanshu-ranjan-7a3305216/"
+                />
+                <BossCard
+                    imageName="GenSec.png"
+                    // color="#4ade80"
+                    color="#ec4899"
+                    name="Simran Raj"
+                    role="General Secretary"
+                    link="https://www.linkedin.com/in/simran-raj-88429a22a/"
                 />
             </div>
             <div className='mb-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-y-16 place-items-center'>
 
                 <div className="w-fit">
                     <UserCard
-                        imageName="TechLeadCropped.png"
+                        imageName="TechLead.png"
                         color="#06b6d4"
                         name="Rishav Kumar"
                         role="Tech Lead"
@@ -56,22 +64,24 @@ const TheTeam = (): JSX.Element => {
                         link="https://www.linkedin.com/in/vanshika-tiwari-79a019222/"
                     />
                 </div>
-                {/* <div className="w-fit">
+                <div className="w-fit">
                     <UserCard
-                        imageName="PRLeadCropped.png"
+                        imageName="PRLead.png"
                         color="#22c55e"
-                        name="Ayushi Agarwal"
+                        name="Aruj Singhvi"
                         role="PR Lead"
+                        link="https://www.linkedin.com/in/aruj-singhvi-730862250/"
                     />
-                </div> */}
-                {/* <div className="w-fit">
+                </div>
+                <div className="w-fit">
                     <UserCard
                         imageName="EventLead.png"
                         color="#2dd4bf"
-                        name="Sneha Prasad"
+                        name="Vinay Vyas"
                         role="Event Lead"
+                        link="https://www.linkedin.com/in/vinay-vyas-338544251/"
                     />
-                </div> */}
+                </div>
                 <div className="w-fit">
                     <UserCard
                         imageName="CreativeLead.png"
@@ -81,18 +91,21 @@ const TheTeam = (): JSX.Element => {
                         link="https://www.linkedin.com/in/khyati-tiwari-4876b6250/"
                     />
                 </div>
-                {/* <div className="w-fit">
-                    <UserCard
-                        imageName="ScribingLeadCropped.png"
-                        color="#fb923c"
-                        name="Ayush Bhatt"
-                        role="Scribing Lead"
-                    />
-                </div> */}
                 <div className="w-fit">
                     <UserCard
-                        imageName="ResearchLead2ndCropped.png"
-                        color="#ec4899"
+                        imageName="ScribingLead.png"
+                        color="#fb923c"
+                        name="Sarthak Tiwari"
+                        role="Scribing Lead"
+                        link="https://www.linkedin.com/in/sarthak-manoj-tiwari-567909250/"
+                    />
+                </div>
+                <div className="w-fit">
+                    <UserCard
+                        imageName="ResearchLead.png"
+                        // color="#ec4899"
+                        // color="#4ade80"
+                        color="#f87171"
                         name="Aksh Raizada"
                         role="Research Lead"
                         link="https://www.linkedin.com/in/aksh-raizada/"
