@@ -40,7 +40,7 @@ const TheTeam = (): JSX.Element => {
                     // color="#4ade80"
                     color="#f43f5e"
                     name="Navneet Lamba"
-                    role="General Secretary"
+                    role="Vice President"
                     link="https://www.linkedin.com/in/navneet-lamba/"
                 />
                 <BossCard
