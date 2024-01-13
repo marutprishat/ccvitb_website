@@ -36,12 +36,20 @@ const TheTeam = (): JSX.Element => {
                     link="https://www.linkedin.com/in/sudhanshu-ranjan-7a3305216/"
                 />
                 <BossCard
+                    imageName="VP.png"
+                    // color="#4ade80"
+                    color="#f43f5e"
+                    name="Navneet Lamba"
+                    role="General Secretary"
+                    link="https://www.linkedin.com/in/navneet-lamba/"
+                />
+                <BossCard
                     imageName="GenSec.png"
                     // color="#4ade80"
                     color="#ec4899"
-                    name="Simran Raj"
+                    name="Sanya Bhambhani"
                     role="General Secretary"
-                    link="https://www.linkedin.com/in/simran-raj-88429a22a/"
+                    link="https://www.linkedin.com/in/sanya-bhambhani/"
                 />
             </div>
             <div className='mb-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-y-16 place-items-center'>
