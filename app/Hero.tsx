@@ -34,11 +34,11 @@ const HeroSection = () => {
             Embark on a tech odyssey at Cisco Community, VIT Bhopal. Explore Networking Wonders, connect with experts,
             and shape the future. Join us in shaping tomorrow&#39;s connectivity!
           </p>
-          <div className="flex w-[237px] h-[60px] items-center justify-center px-[30px] py-[24px] bg-[#015478] rounded-[20px] shadow-[4px_10px_20px_#002b3d78]">
+          {/* <div className="flex w-[237px] h-[60px] items-center justify-center px-[30px] py-[24px] bg-[#015478] rounded-[20px] shadow-[4px_10px_20px_#002b3d78]">
             <button className="relative w-fit mt-[-1.12px] ml-[-0.22px] mr-[-0.22px] [font-family:'Inter-SemiBold',Helvetica] font-semibold text-white text-[16px] tracking-[0] leading-[normal] whitespace-nowrap all-[unset] box-border">
               BROWSE COMMUNITY
             </button>
-          </div>
+          </div> */}
         </div>
 
         {/* Astronaut Image */}
