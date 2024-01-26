@@ -19,12 +19,11 @@ const AboutUs = (): JSX.Element => {
                         <p className="[font-family:'Inter-Regular',Helvetica] font-normal text-[#00000087] dark:text-[#a6adbb] text-[25px] tracking-[0] leading-[normal]">
                             We are the vibrant Cisco community of impassioned enthusiasts, driven by an unwavering dedication to innovation and collaboration. Together, we aspire to revolutionize networking experiences, guided by curiosity and a collective commitment to pushing the frontiers of technology.
                         </p>
-                        <button className="px-[31.96px] py-[19.97px] bg-[#015478] rounded-[20px] shadow-[4px_10px_20px_#002b3d78] all-[unset] box-border">
+                        {/* <button className="px-[31.96px] py-[19.97px] bg-[#015478] rounded-[20px] shadow-[4px_10px_20px_#002b3d78] all-[unset] box-border">
                             <div className="w-fit [font-family:'Urbanist-Bold',Helvetica] font-bold text-white text-[20px] text-center leading-[22.0px] whitespace-nowrap">
                                 Explore
                             </div>
-
-                        </button>
+                        </button> */}
                     </div>
                 </div>
 

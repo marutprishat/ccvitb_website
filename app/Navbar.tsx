@@ -86,7 +86,7 @@ const Navbar3 = () => {
                                 </li> */}
                             </ul>
                         </li>
-                        <li><a>Community</a></li>
+                        <li><a href="https://explore-delta.vercel.app/">Community</a></li>
                     </ul>
                 </div>
 
@@ -165,7 +165,7 @@ const Navbar3 = () => {
                             </ul>
                         </details>
                     </li>
-                    <li><a className="dark:text-black">Community</a></li>
+                    <li><a className="dark:text-black" href="https://explore-delta.vercel.app/">Community</a></li>
                 </ul>
             </div>
 
