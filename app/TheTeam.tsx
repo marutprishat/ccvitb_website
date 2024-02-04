@@ -24,7 +24,9 @@ const TheTeam = (): JSX.Element => {
                 <BossCard
                     imageName="FacultyCoordinator.png"
                     color="#60a5fa"
-                    name="Asst. Prof. Nancy Kumari"
+                    name="Dr. Nancy Kumari"
+                    designation="Assistant Professor"
+                    company="School of Computing Science & Engineering"
                     role="Faculty Coordinator"
                     link="https://in.linkedin.com/in/dr-nancy-kumari "
                 />
@@ -35,14 +37,13 @@ const TheTeam = (): JSX.Element => {
                     role="President"
                     link="https://www.linkedin.com/in/sudhanshu-ranjan-7a3305216/"
                 />
-                <BossCard
+                {/* <BossCard
                     imageName="VP.png"
-                    // color="#4ade80"
                     color="#f43f5e"
                     name="Navneet Lamba"
                     role="Vice President"
                     link="https://www.linkedin.com/in/navneet-lamba/"
-                />
+                /> */}
                 <BossCard
                     imageName="GenSec.png"
                     // color="#4ade80"

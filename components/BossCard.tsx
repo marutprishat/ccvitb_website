@@ -5,11 +5,13 @@ interface BossCardProps {
   imageName: string;
   color: string;
   name: string;
+  designation?: string;
+  company?: string;
   role: string;
   link: string;
 }
 
-const BossCard: React.FC<BossCardProps> = ({ imageName, color, name, role, link }) => {
+const BossCard: React.FC<BossCardProps> = ({ imageName, color, name, designation, company, role, link }) => {
   const scaleFactor = 1.15;
   return (
     <div className="w-fit">
@@ -21,7 +23,7 @@ const BossCard: React.FC<BossCardProps> = ({ imageName, color, name, role, link 
       > {/*layer1*/}
 
         {/*h-[${300*scaleFactor}px] compiles to h-[345px]*/}
-        <div className={`relative h-[${300 * scaleFactor}px] aspect-[2/3]  rounded-[15.31px] `} style={{backgroundColor: `${color}`, boxShadow: `0px 5px 250px 12.5px ${color}`}}> {/*layer 2*/}
+        <div className={`relative h-[${300 * scaleFactor}px] aspect-[2/3]  rounded-[15.31px] `} style={{ backgroundColor: `${color}`, boxShadow: `0px 5px 250px 12.5px ${color}` }}> {/*layer 2*/}
 
           {/*w-[${200*scaleFactor}px] compiles to w-[230px]*/}
           {/*h-[${320*scaleFactor}px] compiles to h-[368px]*/}
@@ -39,8 +41,12 @@ const BossCard: React.FC<BossCardProps> = ({ imageName, color, name, role, link 
           <div className="absolute top-0 left-0 w-full h-full rounded-[15.31px] bg-gradient-to-b from-transparent to-black" />
 
           <div className="absolute bottom-2 left-3 text-white">
-            <div className="text-base tracking-wide font-bold whitespace-nowrap">
-              <Link href={`${link}`} target="_blank">{name}</Link>
+            <div className="">
+              <Link href={`${link}`} target="_blank" className="text-base tracking-wide font-bold">{name}</Link>
+              <br />
+              {designation &&
+                <Link href={`${link}`} target="_blank" className="text-white text-[9px] tracking-wide leading-loose font-bold">{designation}<br />{company}</Link>
+              }
             </div>
             <div className="flex items-center w-fit p-1 rounded-full shadow-[0px_1.66px_1.66px_#00000040] backdrop-blur-md backdrop-brightness-[100%] bg-gradient-to-r from-[rgba(29.75,27.89,27.89,0.6)] via-[rgba(29.75,27.89,27.89,0.47)] to-[rgba(29.75,27.89,27.89,0.58)]">
               <Image

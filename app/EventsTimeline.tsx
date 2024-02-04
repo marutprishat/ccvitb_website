@@ -28,7 +28,7 @@ const EventsTimeline = () => {
             title: "Community Inauguration",
             date: "Jan. 31st, 2024",
             details: "We are thrilled to announce the inauguration of the CISCO Community (a vibrant community of students and passionate individuals that are committed to promoting teamwork and exchanging knowledge), and it is our pleasure to extend a warm invitation to you to join us for this significant occasion. The ceremony will feature esteemed speaker Mr. Mahendra Singh Kushwah, shedding light on the community's goals and networking prospects for students and industry professionals. This event marks the commencement of a productive space, fostering innovation and connectivity within the realm of technology.",
-            image: "/events/Inauguration.jpg"
+            image: "/events/Inaugration.png"
         },
     ];
     const [selectedEvent, setSelectedEvent] = useState({ title: events[events.length - 1].title, details: events[events.length - 1].details, image: events[events.length-1].image });
